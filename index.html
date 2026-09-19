@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Haiku Site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--I chose cambria and times new roman because their serif based-style go well with the traditional and reflective nature of the poem-->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Cambria, 'Times New Roman', serif;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #bca762;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.poem {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+img {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+    <h1>A Poppy Blooms</h1>
+    <h2>A haiku written by Katsushika Hokusai</h2>
+</div>
+
+<div class="main">
+  
+    <img src="img/Watercolor Painting edited.jpg" 
+    alt="Poppy flower watercolor art">
+  
+  <div class="poem">
+    <p>I write, erase, rewrite<br>
+       Erase again, and then<br> 
+       A poppy blooms.<br>
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+  <h5>Website created by Natalie [Noren] Diaz</h5>
+</div>
+
+</body>
+
+</html>
